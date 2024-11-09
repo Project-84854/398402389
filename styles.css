@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #1877f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-left h1 {
+    font-size: 20px;
+}
+
+.fb-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.meta-logo {
+    width: 50px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    color: #1877f2;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.sidebar ul li:hover {
+    color: #1658c2;
+}
+
+.main-content {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h2 {
+    color: #1877f2;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    color: #4b4f56;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1658c2;
+}
+
+.popular-articles, .related-topics {
+    margin-top: 20px;
+}
+
+.popular-articles h3, .related-topics h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.popular-articles ul {
+    list-style: none;
+}
+
+.popular-articles ul li {
+    padding: 8px 0;
+}
+
+.popular-articles ul li a {
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.popular-articles ul li a:hover {
+    text-decoration: underline;
+}
+
+.related-topics .topics {
+    display: flex;
+    gap: -2px;
+    justify-content: space-around;
+}
+
+.topic {
+    width: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topic img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.topic h4 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.topic p {
+    font-size: 16px;
+    color: #666;
+}
